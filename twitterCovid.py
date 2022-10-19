@@ -5,10 +5,10 @@ import pandas as pd
 #%run ./Keys.py
 dosya = open('Keys.py')
   #info = py.load(my_cred_data)
-consumerKey = info['A41fUVUERwALBSon7BSZpjyXn']
-consumerSecret = info['qgBrCfDnCLqxAGJ8EWjW3sQSNTmgC9qXdg53tPGUNRaus9SQYL']
-accessToken = info['861871854902018048-n8anYq7aPSVN0DVTilECUWnQj40xFzh']
-accessTokenSecret = info['RKxFCWLrEPLXHu3cnYH67z0rQiv2oU8lCohL8PK0CkVLt']
+consumerKey = info['']
+consumerSecret = info['']
+accessToken = info['']
+accessTokenSecret = info['']
 
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
